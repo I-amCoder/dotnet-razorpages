@@ -134,3 +134,4 @@ D:\.Net Learning\WebApp\WebAppRazorPages\bin\Debug\net8.0\runtimes\win\lib\net6.
 D:\.Net Learning\WebApp\WebAppRazorPages\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\WebAppRazorPages.csproj.AssemblyReference.cache
 D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\WebAppRa.F7108E13.Up2Date
+D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\WebAppRazorPages.sourcelink.json
