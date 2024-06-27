@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebAppRazorPages.Data;
+using Microsoft.AspNetCore.Identity;
+using WebAppRazorPages.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,8 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
+
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<AppDbContext>();
 
 var app = builder.Build();
 

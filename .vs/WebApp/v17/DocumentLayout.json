@@ -3,56 +3,88 @@
   "WorkspaceRootPath": "D:\\.Net Learning\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\shared\\layouts\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\shared\\layouts\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\categories\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\categories\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\shared\\layouts\\_guest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\shared\\layouts\\_guest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\shared\\layouts\\_guest.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\shared\\layouts\\_guest.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6293A13E-20B4-4D00-8531-E91E541B1D7B}|Solution Items{6293A13E-20B4-4D00-8531-E91E541B1D7B}|D:\\.Net Learning\\WebApp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{6293A13E-20B4-4D00-8531-E91E541B1D7B}|Solution Items{6293A13E-20B4-4D00-8531-E91E541B1D7B}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\webapprazorpages.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\webapprazorpages.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\webapprazorpages.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\webapprazorpages.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\categories\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\categories\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\categories\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\categories\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\migrations\\20240624151237_addcategorytodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\migrations\\20240624151237_addcategorytodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|d:\\.net learning\\webapp\\webapprazorpages\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBB45AB-F063-4D5B-B8DD-44837AB9E249}|WebAppRazorPages\\WebAppRazorPages.csproj|solutionrelative:webapprazorpages\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6293A13E-20B4-4D00-8531-E91E541B1D7B}|Solution Items{6293A13E-20B4-4D00-8531-E91E541B1D7B}|D:\\.Net Learning\\WebApp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6293A13E-20B4-4D00-8531-E91E541B1D7B}|Solution Items{6293A13E-20B4-4D00-8531-E91E541B1D7B}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,17 +94,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "_Admin.cshtml",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Shared\\Layouts\\_Admin.cshtml",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Shared\\Layouts\\_Admin.cshtml",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Shared\\Layouts\\_Admin.cshtml",
+              "RelativeToolTip": "WebAppRazorPages\\Pages\\Shared\\Layouts\\_Admin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T13:10:37.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Create.cshtml",
               "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Categories\\Create.cshtml",
               "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Create.cshtml",
               "RelativeToolTip": "WebAppRazorPages\\Pages\\Categories\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-26T04:46:45.545Z",
               "IsPinned": true,
@@ -80,78 +125,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Categories\\Create.cshtml.cs",
-              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Create.cshtml.cs",
-              "RelativeToolTip": "WebAppRazorPages\\Pages\\Categories\\Create.cshtml.cs",
-              "ViewState": "AQIAABAAAAAAMzMzMzPzvxcAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T04:47:07.646Z",
+              "DocumentIndex": 2,
+              "Title": "_Guest.cshtml.css",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Shared\\Layouts\\_Guest.cshtml.css",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Shared\\Layouts\\_Guest.cshtml.css",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Shared\\Layouts\\_Guest.cshtml.css",
+              "RelativeToolTip": "WebAppRazorPages\\Pages\\Shared\\Layouts\\_Guest.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-27T07:00:14.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WebAppRazorPages\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T06:58:47.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebAppRazorPages\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABMAAAAAAAAAAAAwwBkAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T17:26:09.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Categories\\Index.cshtml.cs",
-              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Index.cshtml.cs",
-              "RelativeToolTip": "WebAppRazorPages\\Pages\\Categories\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAAMAAAA",
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "WebAppRazorPages\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAADsAAAAAmJmZmZn5v04AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T17:17:52.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Categories\\Index.cshtml",
-              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Index.cshtml",
-              "RelativeToolTip": "WebAppRazorPages\\Pages\\Categories\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T17:17:44.897Z",
+              "WhenOpened": "2024-06-27T06:46:00.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "D:\\.Net Learning\\WebApp\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-24T15:18:46.416Z"
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebAppRazorPages\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwBQAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T06:45:49.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20240624151237_AddCategoryToDb.cs",
-              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Migrations\\20240624151237_AddCategoryToDb.cs",
-              "RelativeDocumentMoniker": "WebAppRazorPages\\Migrations\\20240624151237_AddCategoryToDb.cs",
-              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Migrations\\20240624151237_AddCategoryToDb.cs",
-              "RelativeToolTip": "WebAppRazorPages\\Migrations\\20240624151237_AddCategoryToDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T15:12:37.316Z"
+              "DocumentIndex": 1,
+              "Title": "_Guest.cshtml",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Shared\\Layouts\\_Guest.cshtml",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Shared\\Layouts\\_Guest.cshtml",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Shared\\Layouts\\_Guest.cshtml",
+              "RelativeToolTip": "WebAppRazorPages\\Pages\\Shared\\Layouts\\_Guest.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T17:26:09.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -161,25 +196,144 @@
               "RelativeDocumentMoniker": "WebAppRazorPages\\Program.cs",
               "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Program.cs",
               "RelativeToolTip": "WebAppRazorPages\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "ViewState": "AQIAAA0AAACAMzMzMzMLwA4AAABuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T15:05:19.708Z"
+              "WhenOpened": "2024-06-24T15:05:19.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebAppRazorPages\\Data\\AppDbContext.cs",
               "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Data\\AppDbContext.cs",
               "RelativeToolTip": "WebAppRazorPages\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T15:03:22.539Z"
+              "WhenOpened": "2024-06-24T15:03:22.539Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Categories\\Index.cshtml",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Index.cshtml",
+              "RelativeToolTip": "WebAppRazorPages\\Pages\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T17:17:44.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Categories\\Index.cshtml.cs",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Index.cshtml.cs",
+              "RelativeToolTip": "WebAppRazorPages\\Pages\\Categories\\Index.cshtml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T17:17:52.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "WebAppRazorPages\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T06:34:15.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Models\\Category.cs",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Models\\Category.cs",
+              "RelativeToolTip": "WebAppRazorPages\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T14:54:17.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Categories\\Create.cshtml.cs",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Create.cshtml.cs",
+              "RelativeToolTip": "WebAppRazorPages\\Pages\\Categories\\Create.cshtml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T04:47:07.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Privacy.cshtml",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "WebAppRazorPages\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T08:26:31.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebAppRazorPages.csproj",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\WebAppRazorPages.csproj",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\WebAppRazorPages.csproj",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\WebAppRazorPages.csproj*",
+              "RelativeToolTip": "WebAppRazorPages\\WebAppRazorPages.csproj*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-24T14:41:37.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Categories\\Edit.cshtml",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "WebAppRazorPages\\Pages\\Categories\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T08:29:38.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Categories\\Edit.cshtml.cs",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Categories\\Edit.cshtml.cs",
+              "RelativeToolTip": "WebAppRazorPages\\Pages\\Categories\\Edit.cshtml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wCYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:00:53.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\appsettings.json",
               "RelativeDocumentMoniker": "WebAppRazorPages\\appsettings.json",
@@ -187,23 +341,12 @@
               "RelativeToolTip": "WebAppRazorPages\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-24T14:58:32.803Z"
+              "WhenOpened": "2024-06-24T14:58:32.803Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WebAppRazorPages.csproj",
-              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\WebAppRazorPages.csproj",
-              "RelativeDocumentMoniker": "WebAppRazorPages\\WebAppRazorPages.csproj",
-              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\WebAppRazorPages.csproj",
-              "RelativeToolTip": "WebAppRazorPages\\WebAppRazorPages.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-24T14:41:37.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "WebAppRazorPages\\Pages\\Index.cshtml",
@@ -211,19 +354,21 @@
               "RelativeToolTip": "WebAppRazorPages\\Pages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T14:36:04.568Z"
+              "WhenOpened": "2024-06-24T14:36:04.568Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "WebAppRazorPages\\Models\\Category.cs",
-              "ToolTip": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\Models\\Category.cs",
-              "RelativeToolTip": "WebAppRazorPages\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T14:54:17.705Z"
+              "DocumentIndex": 20,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\.Net Learning\\WebApp\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\.Net Learning\\WebApp\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-24T15:18:46.416Z",
+              "EditorCaption": ""
             }
           ]
         }

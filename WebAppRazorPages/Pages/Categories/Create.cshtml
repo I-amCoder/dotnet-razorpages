@@ -11,13 +11,16 @@
             <form method="post">
                 <div class="card shadow border-0">
                     <div class="card-body">
+                        <div asp-validation-summary="All" class="text-danger my-4"></div>
                         <div class="form-group mb-4">
-                            <label class="form-label" asp-for="Category.Name">Category Name</label>
-                            <input asp-for="@Model.Category.Name" class="form-control" />
+                            <label class="form-label" asp-for="Category.Name"></label>
+                            <input asp-for="Category.Name" class="form-control" />
+                            <span asp-validation-for="Category.Name" class="text-danger"></span>
                         </div>
                         <div class="form-group mb-4">
-                            <label class="form-label" asp-for="Category.DisplayOrder">Display Order</label>
-                            <input asp-for="@Model.Category.DisplayOrder" class="form-control" />
+                            <label class="form-label" asp-for="Category.DisplayOrder"></label>
+                            <input asp-for="Category.DisplayOrder" class="form-control" />
+                            <span asp-validation-for="Category.DisplayOrder" class="text-danger"></span>
                         </div>
                         <button type="submit" class="btn btn-outline-success">Create</button>
                     </div>

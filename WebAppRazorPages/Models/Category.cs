@@ -10,6 +10,7 @@ namespace WebAppRazorPages.Models
         [Required]
         public string Name { get; set; }
 
+        [Display(Name="Display Order")]
         public int DisplayOrder { get; set; }
     }
 }

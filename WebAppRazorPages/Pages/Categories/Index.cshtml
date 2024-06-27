@@ -13,22 +13,25 @@
     </div>
     <div class="row mt-5 justify-content-center">
         <div class="col-md-8">
+            Sort By: <a asp-page="Index">None</a> &ensp; <a asp-page="Index" asp-route-sort="display-order">Display Order</a>
             <table class="table table-bordered table-striped">
                 <thead>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Order</th>
-                    <th>Action</th>
+                <th>Name</th>
+                <th>Order</th>
+                <th>Action</th>
                 </thead>
                 <tbody>
-                    @foreach(var category in Model.Categories)
+                    @foreach (var category in Model.Categories)
                     {
                         <tr>
-                            <td>@category.Id</td>
+
                             <td>@category.Name</td>
                             <td>@category.DisplayOrder</td>
                             <td>
-                                <Button class="btn-sm btn-danger btn"> Delete</Button>
+
+                                <a asp-page="Edit" asp-route-id="@category.Id" class="btn-sm btn-warning btn"> Edit</a>
+                                <button data-id="@category.Id" type="submit" class="btn btn-sm btn-danger delete-category">Delete</button>
+
                             </td>
                         </tr>
                     }
@@ -37,3 +40,42 @@
         </div>
     </div>
 </div>
+@section Modals
+{
+    <div class="modal fade" id="DeleteCategoryModal" tabindex="-1" aria-labelledby="DeleteCategoryModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="DeleteCategoryModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form method="post" asp-page-handler="Delete">
+                    <input hidden id="CategoryId" name="id" />
+                    <input hidden name="__RequestVerificationToken" value="@Html.AntiForgeryToken()" />
+
+                    <div class="modal-body">
+                        Are you sure to delete this category?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+
+
+@section Scripts
+{
+    <script>
+        $(".delete-category").click(function (e) {
+            e.preventDefault();
+            var modal = $("#DeleteCategoryModal");
+            modal.find("#CategoryId").val($(this).data('id'));
+            modal.modal('show');
+
+        });
+    </script>
+}
