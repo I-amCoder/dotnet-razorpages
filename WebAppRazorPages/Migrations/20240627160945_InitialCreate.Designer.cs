@@ -12,8 +12,8 @@ using WebAppRazorPages.Data;
 namespace WebAppRazorPages.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240627063929_InitialReady")]
-    partial class InitialReady
+    [Migration("20240627160945_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,19 +54,19 @@ namespace WebAppRazorPages.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "32ac120c-abb5-4aaf-8a5d-1117dc6935f5",
+                            Id = "0e586427-7a2c-41d8-a308-7adb814a6df7",
                             Name = "admin",
                             NormalizedName = "Admin"
                         },
                         new
                         {
-                            Id = "59be55d9-a90a-45fa-bc56-6b4fef19e79d",
+                            Id = "99409724-712f-423b-a8a4-6cc6c7f64d0d",
                             Name = "seller",
                             NormalizedName = "Seller"
                         },
                         new
                         {
-                            Id = "664f39d3-4c6f-4439-a24d-bc9fa96f5026",
+                            Id = "2fe175de-e197-4bac-bef4-3a08ef8c2c28",
                             Name = "customer",
                             NormalizedName = "Customer"
                         });
@@ -125,10 +125,12 @@ namespace WebAppRazorPages.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -157,6 +159,13 @@ namespace WebAppRazorPages.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "d9037879-615f-4ba0-ac53-6721e381d8bd",
+                            RoleId = "0e586427-7a2c-41d8-a308-7adb814a6df7"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -165,10 +174,12 @@ namespace WebAppRazorPages.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -256,6 +267,28 @@ namespace WebAppRazorPages.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "d9037879-615f-4ba0-ac53-6721e381d8bd",
+                            AccessFailedCount = 0,
+                            Address = "",
+                            ConcurrencyStamp = "5f8c0057-ead0-49e2-b99e-d8563b1e8100",
+                            CreatedDate = new DateTime(2024, 6, 27, 21, 9, 43, 818, DateTimeKind.Local).AddTicks(715),
+                            Email = "admin@admin.com",
+                            EmailConfirmed = false,
+                            FirstName = "Junaid",
+                            LastName = "Ali",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ADMIN@ADMIN.COM",
+                            NormalizedUserName = "ADMIN@ADMIN.COM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBZONV/eHc/A0eG1+2imSJYoaV+R3ei5rg/U6ApwqWKGtpJ3KQYxH8O+SjAgHoG39Q==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "9d2c2573-81d9-4ff0-b12b-8154ebe0dd53",
+                            TwoFactorEnabled = false,
+                            UserName = "admin@admin.com"
+                        });
                 });
 
             modelBuilder.Entity("WebAppRazorPages.Models.Category", b =>
@@ -275,7 +308,7 @@ namespace WebAppRazorPages.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("categories");
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

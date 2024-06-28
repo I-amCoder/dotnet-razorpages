@@ -66,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/.Net Learning/WebApp/WebAppRazorPages/Pages/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/.Net Learning/WebApp/WebAppRazorPages/Pages/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -92,6 +96,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/.Net Learning/WebApp/WebAppRazorPages/Pages/Shared/Layouts/_Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXExheW91dHNcX0FkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Learning/WebApp/WebAppRazorPages/Pages/Shared/Layouts/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXExheW91dHNcX0Zvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Learning/WebApp/WebAppRazorPages/Pages/Shared/Layouts/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXExheW91dHNcX05hdmJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Learning/WebApp/WebAppRazorPages/Pages/Shared/Layouts/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXExheW91dHNcX1NpZGViYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/.Net Learning/WebApp/WebAppRazorPages/Pages/Shared/_LoginPartial.cshtml]

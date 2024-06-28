@@ -33,7 +33,7 @@ namespace WebAppRazorPages.Pages.Categories
                 return Page();
             }
 
-            await _db.categories.AddAsync(Category);
+            await _db.Categories.AddAsync(Category);
             await _db.SaveChangesAsync();
             return RedirectToPage("Index");
         }

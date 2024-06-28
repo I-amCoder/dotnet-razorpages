@@ -1,12 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace WebAppRazorPages.Pages.Shared.Layouts
+namespace WebAppRazorPages.Pages.Admin
 {
-    public class _AdminModel : PageModel
+    public class DashboardModel : PageModel
     {
         public void OnGet()
         {
+
         }
     }
 }

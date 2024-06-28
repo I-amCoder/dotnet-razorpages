@@ -18,7 +18,7 @@ namespace WebAppRazorPages.Pages.Categories
         }
         public void OnGet(string sort)
         {
-            IQueryable<Category> query = _db.categories;
+            IQueryable<Category> query = _db.Categories;
             
             if(sort == "display-order")
             {
@@ -30,11 +30,11 @@ namespace WebAppRazorPages.Pages.Categories
 
         public async Task<IActionResult> OnPostDeleteAsync(int id)
         {
-            var cat = await _db.categories.FirstOrDefaultAsync(c=> c.Id == id);
+            var cat = await _db.Categories.FirstOrDefaultAsync(c=> c.Id == id);
             
             if(cat != null)
             {
-                _db.categories.Remove(cat);
+                _db.Categories.Remove(cat);
                 _db.SaveChangesAsync();
             }
 

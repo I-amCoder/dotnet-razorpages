@@ -20,7 +20,6 @@ D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\staticwebassets\msbuil
 D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebAppRazorPages.props
 D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebAppRazorPages.props
 D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\staticwebassets.pack.json
-D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\scopedcss\bundle\WebAppRazorPages.styles.css
 D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\scopedcss\projectbundle\WebAppRazorPages.bundle.scp.css
 D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\WebAppRazorPages.dll
@@ -285,3 +284,4 @@ D:\.Net Learning\WebApp\WebAppRazorPages\bin\Debug\net8.0\runtimes\win-arm64\nat
 D:\.Net Learning\WebApp\WebAppRazorPages\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\.Net Learning\WebApp\WebAppRazorPages\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\WebAppRazorPages.MvcApplicationPartsAssemblyInfo.cs
+D:\.Net Learning\WebApp\WebAppRazorPages\obj\Debug\net8.0\scopedcss\Pages\Shared\Layouts\_Guest.cshtml.rz.scp.css

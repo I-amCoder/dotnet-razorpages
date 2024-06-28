@@ -18,7 +18,7 @@ namespace WebAppRazorPages.Pages.Categories
         public Category Category { get; set; }
         public void OnGet(int id)
         {
-            Category = _db.categories.FirstOrDefault(c => c.Id == id);
+            Category = _db.Categories.FirstOrDefault(c => c.Id == id);
         }
 
         public async Task<IActionResult> OnPost()
@@ -36,7 +36,7 @@ namespace WebAppRazorPages.Pages.Categories
 
 
 
-            _db.categories.Update(Category);
+            _db.Categories.Update(Category);
             await _db.SaveChangesAsync();
             return RedirectToPage("Index");
         }

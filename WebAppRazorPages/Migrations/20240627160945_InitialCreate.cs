@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebAppRazorPages.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialReady : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -57,7 +57,7 @@ namespace WebAppRazorPages.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "categories",
+                name: "Categories",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -67,7 +67,7 @@ namespace WebAppRazorPages.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_categories", x => x.Id);
+                    table.PrimaryKey("PK_Categories", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -116,8 +116,8 @@ namespace WebAppRazorPages.Migrations
                 name: "AspNetUserLogins",
                 columns: table => new
                 {
-                    LoginProvider = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    ProviderKey = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    LoginProvider = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false),
+                    ProviderKey = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false),
                     ProviderDisplayName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserId = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
@@ -161,8 +161,8 @@ namespace WebAppRazorPages.Migrations
                 columns: table => new
                 {
                     UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    LoginProvider = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    LoginProvider = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false),
                     Value = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -181,10 +181,20 @@ namespace WebAppRazorPages.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "32ac120c-abb5-4aaf-8a5d-1117dc6935f5", null, "admin", "Admin" },
-                    { "59be55d9-a90a-45fa-bc56-6b4fef19e79d", null, "seller", "Seller" },
-                    { "664f39d3-4c6f-4439-a24d-bc9fa96f5026", null, "customer", "Customer" }
+                    { "0e586427-7a2c-41d8-a308-7adb814a6df7", null, "admin", "Admin" },
+                    { "2fe175de-e197-4bac-bef4-3a08ef8c2c28", null, "customer", "Customer" },
+                    { "99409724-712f-423b-a8a4-6cc6c7f64d0d", null, "seller", "Seller" }
                 });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUsers",
+                columns: new[] { "Id", "AccessFailedCount", "Address", "ConcurrencyStamp", "CreatedDate", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                values: new object[] { "d9037879-615f-4ba0-ac53-6721e381d8bd", 0, "", "5f8c0057-ead0-49e2-b99e-d8563b1e8100", new DateTime(2024, 6, 27, 21, 9, 43, 818, DateTimeKind.Local).AddTicks(715), "admin@admin.com", false, "Junaid", "Ali", false, null, "ADMIN@ADMIN.COM", "ADMIN@ADMIN.COM", "AQAAAAIAAYagAAAAEBZONV/eHc/A0eG1+2imSJYoaV+R3ei5rg/U6ApwqWKGtpJ3KQYxH8O+SjAgHoG39Q==", null, false, "9d2c2573-81d9-4ff0-b12b-8154ebe0dd53", false, "admin@admin.com" });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUserRoles",
+                columns: new[] { "RoleId", "UserId" },
+                values: new object[] { "0e586427-7a2c-41d8-a308-7adb814a6df7", "d9037879-615f-4ba0-ac53-6721e381d8bd" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -245,7 +255,7 @@ namespace WebAppRazorPages.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "categories");
+                name: "Categories");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
