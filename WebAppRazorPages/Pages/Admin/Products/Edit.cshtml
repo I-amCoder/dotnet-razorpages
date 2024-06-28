@@ -1,4 +1,66 @@
 ﻿@page
 @model WebAppRazorPages.Pages.Admin.Products.EditModel
 @{
+    Layout = "Layouts/_Admin";
 }
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Update Product</h3>
+        </div>
+    </div>
+    <form method="post" enctype="multipart/form-data">
+        <div class="row">
+            <div class="col-xl-4 col-md-6">
+                <div class="form-group mb-4">
+                    <label asp-for="Input.Name" class="form-label"></label>
+                    <input asp-for="Input.Name" class="form-control" />
+                    <span class="text-danger" asp-validation-for="Input.Name"></span>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="form-group mb-4">
+                    <label asp-for="Input.Brand" class="form-label"></label>
+                    <input asp-for="Input.Brand" class="form-control" />
+                    <span class="text-danger" asp-validation-for="Input.Brand"></span>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="form-group mb-4">
+                    <label class="form-label">Select Category</label>
+                    <select name="Input.CategoryId" asp-for="Input.CategoryId" class="form-control">
+                        <option value="">Select Category</option>
+                        @foreach (var Category in Model.Categories)
+                        {
+                            <option value="@Category.Id">@Category.Name</option>
+                        }
+                    </select>
+                    <span class="text-danger" asp-validation-for="Input.Name"></span>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="form-group mb-4">
+                    <label asp-for="Input.Description" class="form-label"></label>
+                    <input asp-for="Input.Description" class="form-control" />
+                    <span class="text-danger" asp-validation-for="Input.Description"></span>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="form-group mb-4">
+                    <label asp-for="Input.Price" class="form-label"></label>
+                    <input asp-for="Input.Price" class="form-control" />
+                    <span class="text-danger" asp-validation-for="Input.Price"></span>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6">
+                <div class="form-group mb-4">
+                    <label asp-for="Input.Image" class="form-label"></label>
+                    <input asp-for="Input.Image" type="file" class="form-control" />
+                    <span class="text-danger" asp-validation-for="Input.Image"></span>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-success">Submit</button>
+    </form>
+</div>

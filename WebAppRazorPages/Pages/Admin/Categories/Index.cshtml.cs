@@ -35,7 +35,7 @@ namespace WebAppRazorPages.Pages.Categories
             if(cat != null)
             {
                 _db.Categories.Remove(cat);
-                _db.SaveChangesAsync();
+                await _db.SaveChangesAsync();
             }
 
             return RedirectToPage("Index");

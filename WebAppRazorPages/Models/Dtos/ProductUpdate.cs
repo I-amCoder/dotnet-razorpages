@@ -1,36 +1,32 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 
-namespace WebAppRazorPages.Models
+namespace WebAppRazorPages.Models.Dtos
 {
-    public class Product
+    public class ProductUpdate
     {
-        [Key]
         public int Id { get; set; }
 
         [Required]
         public string Name { get; set; } = string.Empty;
 
-        [Required] 
+        [Required]
         public string Description { get; set; } = string.Empty;
 
 
         [MaxLength(100)]
         public string Brand { get; set; } = string.Empty;
-        
+
         [Required]
         [Precision(16)]
-        public decimal Price { get; set; } 
-        
-        [Required] 
-        public string ImagePath { get; set; } = string.Empty ;
+        public decimal Price { get; set; }
+
+        public IFormFile? Image { get; set; } 
 
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
-        
-        public Category Category { get; set; } 
 
-        public DateTime CreatedAt { get; set; }
     }
 }

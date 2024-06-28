@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAppRazorPages")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+101de0e999339c4c2e5165b96090e6b327702b92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a564926b679358e96024793cb9634aa0eb65cb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAppRazorPages")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAppRazorPages")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

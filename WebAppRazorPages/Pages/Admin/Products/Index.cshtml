@@ -7,7 +7,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <a asp-page="Create" class="btn btn-outline-success btn-sm float-right">Add Product</a>
+            <a asp-page="Create" class="btn btn-success btn-sm float-right">Add Product</a>
             <h2 class="text-primary">Manage Products</h2>
         </div>
         <div class="col-12">
@@ -19,6 +19,7 @@
                         <th>Name</th>
                         <th>Brand</th>
                         <th>Category</th>
+                        <th>Image</th>
                         <th>Price</th>
                         <th>Action</th>
                         </thead>
@@ -33,15 +34,25 @@
                                         <td>@Product.Name</td>
                                         <td>@Product.Brand</td>
                                         <td>@Product.Category.Name</td>
+                                        <td>
+                                            <img style="width: 100px" class="rounded shadow" src="@Product.ImagePath" />
+                                        </td>
                                         <td>@Product.Price</td>
-                                        <td></td>
+                                        <td>
+                                            <a asp-page="Edit" asp-route-id="@Product.Id" class="btn btn-sm btn-warning text-warning">
+                                                <i class="fa fa-edit"></i> Edit
+                                            </a>
+                                            <button data-pid="@Product.Id" class="btn btn-sm mx-2 delete-product btn-danger text-danger">
+                                                <i class="fa fa-trash"></i> Delete
+                                            </button>
+                                        </td>
                                     </tr>
                                 }
                             }
                             else
                             {
                                 <tr>
-                                    <td colspan="100">No Products Found!</td>
+                                    <td colspan="6" >No Products Found!</td>
                                 </tr>
                             }
 
@@ -52,3 +63,47 @@
         </div>
     </div>
 </div>
+
+@section Modals{
+    <div class="modal fade" id="DeleteProductModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Delete Category</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+
+                <form method="post" asp-page-handler="Delete">
+                    <input hidden id="ProductId" name="id" />
+                    <div class="modal-body">
+                        Are you sure to delete this category?
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $(".delete-product").click(function (e) {
+                e.preventDefault();
+                var modal = $("#DeleteProductModal");
+                var productId = $(this).data('pid');
+                $("#ProductId").val(productId);
+                modal.modal('show');
+            });
+        });
+    </script>
+}

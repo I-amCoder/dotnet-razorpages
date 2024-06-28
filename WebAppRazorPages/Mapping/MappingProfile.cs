@@ -9,6 +9,8 @@ namespace WebAppRazorPages.Mapping
         public MappingProfile() 
         {
             CreateMap<Category, CategoryDto>().ReverseMap();
+            CreateMap<Product, ProductUpdate>().ReverseMap();
+            CreateMap<Product ,ProductCreate>().ReverseMap();
         }
     }
 }
