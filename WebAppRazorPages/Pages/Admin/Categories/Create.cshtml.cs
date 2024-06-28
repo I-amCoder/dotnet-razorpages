@@ -1,29 +1,33 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebAppRazorPages.Data;
 using WebAppRazorPages.Models;
+using WebAppRazorPages.Models.Dtos;
 
 namespace WebAppRazorPages.Pages.Categories
 {
-    public class EditModel : PageModel
+    public class CreateModel : PageModel
     {
-        public EditModel(AppDbContext db)
+        public CreateModel(AppDbContext db, IMapper mapper)
         {
             _db = db;
+            _mapper = mapper;
         }
 
+        private readonly IMapper _mapper;
         private readonly AppDbContext _db;
-
+        
         [BindProperty]
-        public Category Category { get; set; }
-        public void OnGet(int id)
+        public CategoryDto Input { get; set;  } 
+
+        public void OnGet()
         {
-            Category = _db.Categories.FirstOrDefault(c => c.Id == id);
         }
 
-        public async Task<IActionResult> OnPost()
+        public async Task<IActionResult> OnPost() 
         {
-            if (Category.Name == Category.DisplayOrder.ToString())
+            if (Input.Name == Input.ToString())
             {
                 ModelState.AddModelError("Category.Name", "The Display orde cannot match the name");
             }
@@ -33,10 +37,9 @@ namespace WebAppRazorPages.Pages.Categories
                 return Page();
             }
 
+            var Category = _mapper.Map<Category>(Input);
 
-
-
-            _db.Categories.Update(Category);
+            await _db.Categories.AddAsync(Category);
             await _db.SaveChangesAsync();
             return RedirectToPage("Index");
         }

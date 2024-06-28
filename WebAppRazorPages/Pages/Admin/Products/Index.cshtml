@@ -1,0 +1,54 @@
+﻿@page
+@model WebAppRazorPages.Pages.Admin.Products.IndexModel
+@{
+    Layout = "Layouts/_Admin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <a asp-page="Create" class="btn btn-outline-success btn-sm float-right">Add Product</a>
+            <h2 class="text-primary">Manage Products</h2>
+        </div>
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <table class="table table-striped ">
+                        <thead>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Brand</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                        </thead>
+                        <tbody>
+                            @if (Model.Products.Any())
+                            {
+                                @foreach (var Product in Model.Products)
+
+                                {
+                                    <tr>
+                                        <td>@Product.Id</td>
+                                        <td>@Product.Name</td>
+                                        <td>@Product.Brand</td>
+                                        <td>@Product.Category.Name</td>
+                                        <td>@Product.Price</td>
+                                        <td></td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="100">No Products Found!</td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

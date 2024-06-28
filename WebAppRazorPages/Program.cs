@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using WebAppRazorPages.Data;
 using Microsoft.AspNetCore.Identity;
 using WebAppRazorPages.Models;
+using WebAppRazorPages.Mapping;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,8 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
     .AddEntityFrameworkStores<AppDbContext>();
 
 builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 

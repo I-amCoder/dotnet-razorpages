@@ -19,12 +19,20 @@ namespace WebAppRazorPages.Data
 
         public DbSet<Category> Categories { get; set; }
 
+        public DbSet<Product> Products { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
             SeedRoles(builder);
             SeedUsers(builder);
+
+            builder.Entity<Product>()
+                .HasOne(p => p.Category)
+                .WithMany(c => c.Products)
+                .HasForeignKey(p => p.CategoryId);
+                
         }
 
         private void SeedRoles(ModelBuilder builder)

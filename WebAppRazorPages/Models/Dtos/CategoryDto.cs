@@ -1,18 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace WebAppRazorPages.Models
+namespace WebAppRazorPages.Models.Dtos
 {
-    public class Category
+    public class CategoryDto
     {
-        [Key]
         public int Id { get; set; }
 
         [Required]
         public string Name { get; set; }
 
-        [Display(Name="Display Order")]
+        [Display(Name = "Display Order")]
         public int DisplayOrder { get; set; }
-
-        public ICollection<Product> Products { get; set; }
     }
 }
