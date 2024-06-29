@@ -5,7 +5,45 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="text-primary">Products</h1>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-8 my-4">
+            <form>
+                <input name="query" placeholder="Search Product" class="form-control" />
+            </form>
+        </div>
+    </div>
+    <div class="row justify-content-center ">
+
+        @if (Model.Products.Any())
+        {
+            @foreach (var product in Model.Products)
+            {
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="card shadow">
+                        <img style="height: 200px; object-fit: cover;" src="@product.ImagePath" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="card-title">@product.Name</h4>
+                                <b>$@product.Price</b>
+                            </div>
+                            <small class="text-muted">@product.Brand</small>
+                            <p class="card-text">@product.Description</p>
+
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-center">No Products Found!</p>
+        }
+    </div>
 </div>

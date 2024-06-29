@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aTn2ws8m9o/xwglYvBVcyt/9+Iv697ifwNZR7tVNywk=",
+  "Hash": "K+eg4OVUcsO/iMUiLBEFM14yaML2Qw/iWlv4ZC3zFWg=",
   "Source": "WebAppRazorPages",
   "BasePath": "_content/WebAppRazorPages",
   "Mode": "Default",
@@ -3777,6 +3777,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\33de376c-302a-4c1d-8fe3-da67a7a5357a.jpg"
+    },
+    {
+      "Identity": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\wwwroot\\uploads\\47a67c90-bd02-4ed1-9267-5672d4c0d6f2.jpg",
+      "SourceId": "WebAppRazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\wwwroot\\",
+      "BasePath": "_content/WebAppRazorPages",
+      "RelativePath": "uploads/47a67c90-bd02-4ed1-9267-5672d4c0d6f2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\47a67c90-bd02-4ed1-9267-5672d4c0d6f2.jpg"
     },
     {
       "Identity": "D:\\.Net Learning\\WebApp\\WebAppRazorPages\\wwwroot\\uploads\\4e8a11f5-e397-44f6-8c10-3c46f5d14f47.jpg",
